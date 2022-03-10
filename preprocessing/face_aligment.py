@@ -1,5 +1,5 @@
 import numpy as np
-from landmarks_utils import FACIAL_LANDMARKS_68_IDXS, FACIAL_LANDMARKS_5_IDXS, shape_to_np
+from .landmarks_utils import FACIAL_LANDMARKS_68_IDXS, FACIAL_LANDMARKS_5_IDXS, shape_to_np
 from cv2 import cv2
 
 
