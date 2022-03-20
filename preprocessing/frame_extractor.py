@@ -32,7 +32,7 @@ class FrameExtractor:
     interval = targetFramerate / vidcap.get(cv2.CAP_PROP_FPS)
 
     while success:
-      if int(count) > oldPosition :
+      if int(count) > oldPosition:
         oldPosition = int(count)
         extractedFrames.append(image)
 
