@@ -7,6 +7,7 @@ def resize(image, width: int = None, height: int = None, inter=cv2.INTER_AREA):
   if width is None and height is None:
     return image
     
+  print(f'h: {h}, w: {w}')
   if width is None:
     r = height / float(h)
     dim = (int(w * r), height)

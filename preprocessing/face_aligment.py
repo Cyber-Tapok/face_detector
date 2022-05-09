@@ -6,7 +6,7 @@ from cv2 import cv2
 class FaceAligner:
 
 	def __init__(self, predictor, desiredLeftEye=(0.35, 0.35),
-		desiredFaceWidth=256, desiredFaceHeight=None):
+		desiredFaceWidth=512, desiredFaceHeight=None):
 		self.predictor = predictor
 		self.desiredLeftEye = desiredLeftEye
 		self.desiredFaceWidth = desiredFaceWidth
